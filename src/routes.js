@@ -9,14 +9,14 @@ function Router() {
     return (
         <BrowserRouter>
             <Switch>
+                <UsuarioProvider>
                 <Route exact path='/'>
-                    <UsuarioProvider>
                     <Login/>
-                    </UsuarioProvider>
                 </Route>
                 <Route path='/feira'>
                     <Feira/>
                 </Route>
+                </UsuarioProvider>
                 <Route path='/carrinho'>
                     <Carrinho/>
                 </Route>
