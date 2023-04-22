@@ -1,0 +1,2 @@
+valor so mudar quando algum muda, useMemo()=>=useMemo(()=>saldo-valorTotalCarrinho, [saldo,valorTotalCarrinho])
+é possível ter parametro pré definido->const { saldo = 0 } =
